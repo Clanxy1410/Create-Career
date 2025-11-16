@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Career</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Create Career </h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section class="selector">
+  <label>Select Career Track:</label>
+  <select id="roleSelect">
+    <option value="">-- Select --</option>
+    <option value="frontend">Frontend Developer</option>
+    <option value="backend">Backend Developer</option>
+    <option value="uiux">UI/UX Designer</option>
+  </select>
+</section>
+
+<section class="progress-section">
+  <div class="progress-bar-bg">
+    <div id="progressBar"></div>
+  </div>
+</section>
+
+<section id="roadmapSteps" class="roadmap"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
